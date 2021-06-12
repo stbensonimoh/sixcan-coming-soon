@@ -61,3 +61,16 @@ export const Button = styled.button`
     background-color: #157813;
   }
 `;
+
+export const Footer = styled.footer`
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+  margin-left: 2rem;
+
+`;
+
+export const Copyright = styled.p`
+font-size: 80%;
+color: #666;
+`;

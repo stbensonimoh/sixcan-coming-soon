@@ -8,9 +8,12 @@ import {
   TitleText,
   SubText,
   Button,
+  Copyright,
+  Footer,
 } from "./app-style";
 
 function App() {
+  const today = new Date();
   return (
     <>
       <GlobalStyle />
@@ -26,6 +29,9 @@ function App() {
         </TextWrapper>
         <Button>JOIN THE WAITLIST</Button>
       </MainWrapper>
+      <Footer>
+        <Copyright>Copyright &copy; {today.getFullYear()} SixCanLife</Copyright>
+      </Footer>
     </>
   );
 }
